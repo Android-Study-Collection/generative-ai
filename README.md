@@ -129,3 +129,7 @@ You can clone this repo and substitute `android/app/src/main/assets/autocomplete
 As noted in the original [OpenAI GPT-2 announcement](https://openai.com/research/better-language-models), there are [notable caveats and limitations](https://github.com/openai/gpt-2#some-caveats) with the GPT-2 model. In fact, LLMs today generally have some well-known challenges such as hallucinations, fairness, and bias; this is because these models are trained on real-world data, which make them reflect real world issues.
 This codelab is created only to demonstrate how to create an app powered by LLMs with TensorFlow tooling. The model produced in this codelab is for educational purposes only and not intended for production usage.
 LLM production usage requires thoughtful selection of training datasets and comprehensive safety mitigations. One such functionality offered in this Android app is the profanity filter, which rejects bad user inputs or model outputs. If any inappropriate language is detected, the app will in return reject that action. To learn more about Responsible AI in the context of LLMs, make sure to watch the Safe and Responsible Development with Generative Language Models technical session at Google I/O 2023 and check out the [Responsible AI Toolkit](https://www.tensorflow.org/responsible_ai).
+
+## Extra Resources
+
+[autocomplete.tflite Download](https://drive.google.com/file/d/1oy5uQmYKrt-c7nRV9nKAgRCROwUin2VR/view?usp=sharing)
